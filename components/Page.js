@@ -4,7 +4,7 @@ import { ray } from 'node-ray/web';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const Page = ({ active, title = 'Learn Kannada', children, ...rest }) => {
+const Page = ({ active, title = 'Learn Languages Online | Language Schule | Kannada', children, ...rest }) => {
     return (
         <main {...rest}>
             <Head>
@@ -20,7 +20,7 @@ const Page = ({ active, title = 'Learn Kannada', children, ...rest }) => {
                     d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
                     insertBefore(d,q)}(window,document,'script','_gs');
 
-                    _gs('GSN-822688-L');
+                    _gs('GSN--L');
                         `,
                     }}
                 />

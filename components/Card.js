@@ -13,10 +13,10 @@ const Card = (props) => {
     }
 
     return (
-        <div onClick={show} className="card bg-white rounded-sm mb-0 border border-blue-200 cursor-pointer">
+        <div onClick={show} className="card bg-white rounded-sm mb-0 border border-purple-400 cursor-pointer">
             <div className="w-full flex items-center justify-between space-x-6">
                 <div className="flex-1 truncate">
-                    <div className="flex items-center space-x-3 bg-blue-100 border-b border-blue-200 px-3 py-1.5">
+                    <div className="flex items-center space-x-3 bg-purple-300 border-b border-purple-400 px-3 py-1.5">
                         <p className="source text-gray-900 text-sm">{props.source}</p>
                     </div>
                     <p

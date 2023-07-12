@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="p-5">
             <Link href="/">
-                <h2 className="cursor-pointer text-xl font-semibold">Learn Kannada</h2>
+                <h2 className="cursor-pointer text-xl font-semibold">Learn Languages Online | Language Schule</h2>
             </Link>
         </div>
     );

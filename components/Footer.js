@@ -36,10 +36,13 @@ const Footer = () => {
                 </div>
                 <div className="mt-8 md:mt-0 md:order-1">
                     <p className="text-center text-base text-gray-400 pt-4">
-                        A learning project by{' '}
+                        Powered by learning project of{' '}
                         <a target="_blank" className="underline" href="http://rushi.vishavadia.com">
                             Rushi Vishavadia
-                        </a>
+                        </a> and crafted with <span className="text-red-400">❤</span> for languages by {' '}
+                        <a target="_blank" className="underline" href="http://theajit.in">
+                            Ajit Satpathy
+                        </a>.
                     </p>
                 </div>
             </div>
